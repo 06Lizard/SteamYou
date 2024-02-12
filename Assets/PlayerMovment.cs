@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovment : MonoBehaviour
 {
-    public CharacterController2D controller;
+    [SerializeField] private CharacterController2D controller;
 
     public float runSpeed = 40f;
 

@@ -664,7 +664,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1072240245}
   m_Layer: 3
-  m_Name: SealingCheck
+  m_Name: CeilingCheck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -759,7 +759,7 @@ MonoBehaviour:
   m_AirControl: 0
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 247
   m_GroundCheck: {fileID: 1835542591}
   m_CeilingCheck: {fileID: 1072240245}
   m_CrouchDisableCollider: {fileID: 0}
