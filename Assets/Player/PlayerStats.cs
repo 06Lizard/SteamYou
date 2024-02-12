@@ -17,6 +17,12 @@ public class PlayerStats : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if (Input.GetButtonDown("Attack"))
+            Attack();
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -40,12 +46,12 @@ public class PlayerStats : MonoBehaviour
         Destroy(gameObject); // Destroy the GameObject to which this script is attached
     }
 
-    void OnTriggerExit(Collider other)
+    private void Attack()
     {
-        if (other.CompareTag("Map")) // Assuming you've tagged the map boundary collider appropriately
+        if (!(Swords <= 0))
         {
-            // Call Die function from PlayerStats script
-            Die();
+            Swords--;
+            //SpawnPrefab(lookDirection);
         }
     }
 }
