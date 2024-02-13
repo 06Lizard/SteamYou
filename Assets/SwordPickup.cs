@@ -7,6 +7,7 @@ public class SwordPickup : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        Destroy(gameObject);
         collision.gameObject.GetComponent<PlayerStats>().PickupSword();
         Destroy(gameObject);
     }

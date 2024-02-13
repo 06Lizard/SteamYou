@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyTmpScipt : MonoBehaviour
 {
-    int HP = 3;
+    public int HP;
     // Start is called before the first frame update
     void Start()
     {

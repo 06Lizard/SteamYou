@@ -7,8 +7,8 @@ public class PlayerStats : MonoBehaviour
 {
     [SerializeField] int HP = 3;
     [SerializeField] int Swords = 3;
-    [SerializeField] private Transform P1;
-    [SerializeField] private Transform P2;
+    [SerializeField] private Transform PointLeft;
+    [SerializeField] private Transform PointRight;
     [SerializeField] private Transform PlayersTransform;
     public Transform firePoint;
     public GameObject swordProjectilePrefab;
@@ -28,10 +28,10 @@ public class PlayerStats : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (PlayersTransform.position.x > P2.position.x ||
-            PlayersTransform.position.x < P1.position.x ||
-            PlayersTransform.position.y > P2.position.y ||
-            PlayersTransform.position.y < P1.position.y)
+        if (PlayersTransform.position.x > PointRight.position.x ||
+            PlayersTransform.position.x < PointLeft.position.x ||
+            PlayersTransform.position.y > PointRight.position.y ||
+            PlayersTransform.position.y < PointLeft.position.y)
             Die();
     }
 
