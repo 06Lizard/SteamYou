@@ -9,8 +9,10 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] int Swords = 3;
     [SerializeField] private Transform P1;
     [SerializeField] private Transform P2;
-    [SerializeField] private Transform PlayersTransform;      
-    
+    [SerializeField] private Transform PlayersTransform;
+    public Transform firePoint;
+    public GameObject swordProjectilePrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,8 +53,13 @@ public class PlayerStats : MonoBehaviour
         if (!(Swords <= 0))
         {
             Swords--;
-            //SpawnPrefab(lookDirection);
+            Instantiate(swordProjectilePrefab, firePoint.position, firePoint.rotation);
         }
         Debug.Log("Attack");
+    }
+
+    public void PickupSword()
+    {        
+       Swords++;
     }
 }
