@@ -5,9 +5,14 @@ using UnityEngine;
 
 public class SwordPickup : MonoBehaviour
 {
+    bool CanBePickedUp = true;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(gameObject);
-        collision.gameObject.GetComponent<PlayerStats>().PickupSword();
+        if (CanBePickedUp)
+        {
+            CanBePickedUp = false;
+            Destroy(gameObject);
+            collision.gameObject.GetComponent<PlayerStats>().PickupSword();
+        }        
     }
 }
