@@ -7,6 +7,7 @@ public class PlayerStats : MonoBehaviour
 {
     [SerializeField] int HP = 3;
     [SerializeField] int Swords = 3;
+    [SerializeField] int Keys = 0;
     [SerializeField] private Transform PointLeft;
     [SerializeField] private Transform PointRight;
     [SerializeField] private Transform PlayersTransform;
@@ -35,7 +36,7 @@ public class PlayerStats : MonoBehaviour
             Die();
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         HP -= damage;
         if (HP <= 0)
@@ -61,5 +62,20 @@ public class PlayerStats : MonoBehaviour
     public void PickupSword()
     {        
        Swords++;
+    }
+
+    public bool UseKey()
+    {
+        if (Keys > 0)
+        {
+            Keys--;
+            return true;
+        }
+        return false;
+    }
+
+    public void PickupKey()
+    {
+        Keys++;
     }
 }
