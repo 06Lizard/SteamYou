@@ -4,6 +4,7 @@ using UnityEngine.Events;
 class CharacterController2D : MonoBehaviour
 {
     [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
+    [SerializeField] private float m_DashForce = 400f;                          // Amount of force added when the player dashes.
     [Range(0, 1)][SerializeField] private float m_CrouchSpeed = .36f;           // Amount of maxSpeed applied to crouching movement. 1 = 100%
     [Range(0, .3f)][SerializeField] private float m_MovementSmoothing = .05f;   // How much to smooth out the movement
     [SerializeField] private bool m_AirControl = false;                         // Whether or not a player can steer while jumping;
@@ -18,6 +19,7 @@ class CharacterController2D : MonoBehaviour
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
+    private bool m_Dashed = false;      // Whether or not the player has dashed
 
     [Header("Events")]
     [Space]
@@ -54,6 +56,7 @@ class CharacterController2D : MonoBehaviour
             if (colliders[i].gameObject != gameObject)
             {
                 m_Grounded = true;
+                m_Dashed = false;
                 if (!wasGrounded)
                     OnLandEvent.Invoke();
             }
@@ -131,6 +134,13 @@ class CharacterController2D : MonoBehaviour
             m_Grounded = false;
             m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
         }
+        // If the player should dash...
+        else if (!m_Grounded && jump && !m_Dashed)
+        {
+            // Add a vertical force to the player.            
+            m_Dashed = true;
+            m_Rigidbody2D.AddForce(new Vector2(m_DashForce, 0f));
+        }
     }
 
 
@@ -140,12 +150,5 @@ class CharacterController2D : MonoBehaviour
         m_FacingRight = !m_FacingRight;
 
         transform.Rotate(0f, 180f, 0f);
-    }
-
-    void Dash()
-    {
-        /*turn off RidgedBody
-        move forward for one second
-        turn on ridgedbody*/
     }
 }
