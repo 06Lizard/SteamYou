@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 438efec799241994d8151baa19834948
+  productGUID: 9e38c79ed24f4714db0898db642de0b9
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Steam You
+  productName: ProfilveckaSpel(Main)
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -629,14 +629,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Steam You
+  metroPackageName: ProfilveckaSpel(Main)
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Steam You
+  metroApplicationDescription: ProfilveckaSpel(Main)
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -704,10 +704,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 59831f47-a168-41bd-826d-6f5597253a7f
+  cloudProjectId: 839c6823-4d40-41f4-96f0-bd9ecb4a8291
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Steam You
+  projectName: ProfilveckaSpel(Main)
   organizationId: walter_lizard
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

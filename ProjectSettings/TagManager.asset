@@ -11,9 +11,9 @@ TagManager:
   - Player
   - Water
   - UI
-  - Map
-  - MapCollider
-  - 
+  - Enemy
+  - Mapp
+  - Sword
   - 
   - 
   - 
