@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] int HP = 3;
-    [SerializeField] int Swords = 3;
-    [SerializeField] int Keys = 0;
+    [SerializeField] public int HP = 3;
+    [SerializeField] public int Swords = 3;
+    [SerializeField] public int Keys = 0;
     [SerializeField] private Transform PointLeft;
     [SerializeField] private Transform PointRight;
     [SerializeField] private Transform PlayersTransform;
