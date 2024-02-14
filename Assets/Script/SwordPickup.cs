@@ -9,6 +9,5 @@ public class SwordPickup : MonoBehaviour
     {
         Destroy(gameObject);
         collision.gameObject.GetComponent<PlayerStats>().PickupSword();
-        Destroy(gameObject);
     }
 }

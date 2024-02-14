@@ -27,7 +27,11 @@ public class SwordProjectile : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        try
+        {
         collision.gameObject.GetComponent<EnemyTmpScipt>().TakeDamage(Damage);
+        }
+        catch { }
         BecomePickup();
     }
 
