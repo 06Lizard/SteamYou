@@ -13,6 +13,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private Transform PlayersTransform;
     public Transform firePoint;
     public GameObject swordProjectilePrefab;
+    public int Score = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -77,5 +78,10 @@ public class PlayerStats : MonoBehaviour
     public void PickupKey()
     {
         Keys++;
+    }
+
+    public void AddToScore(int points)
+    {
+        Score += points;
     }
 }
