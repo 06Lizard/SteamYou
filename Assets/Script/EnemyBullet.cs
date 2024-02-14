@@ -9,7 +9,7 @@ public class EnemyBullet : MonoBehaviour
     float yMove;
     float time;
     float aliveTime = 5;
-    int damage = 1;
+    int Damage = 1;
 
     public void SetPlayerPos(GameObject player)
     {
@@ -21,7 +21,7 @@ public class EnemyBullet : MonoBehaviour
         if (yDis > 0)
         {
             //Checks if the y distance is bigger then the x distance
-            if (yDis > Math.Sqrt(xDis * xDis)/1.5)
+            if (yDis > Math.Sqrt(xDis * xDis) / 1.5)
             {
                 if (xDis < 3)
                 {
@@ -55,12 +55,12 @@ public class EnemyBullet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float bulletTravel = (float)Math.Sqrt((((transform.position.x + xMove) * (transform.position.x+ xMove)) + ((transform.position.y + yMove) * (transform.position.y + yMove))) * Time.deltaTime);
+        float bulletTravel = (float)Math.Sqrt((((transform.position.x + xMove) * (transform.position.x + xMove)) + ((transform.position.y + yMove) * (transform.position.y + yMove))) * Time.deltaTime);
 
         RaycastHit2D ray;
         if (xMove > 0)
         {
-            ray = Physics2D.Raycast(new Vector3(transform.position.x + transform.localScale.magnitude/1.5f, transform.position.y), new Vector2(transform.position.x + xMove, transform.position.y + yMove), bulletTravel);
+            ray = Physics2D.Raycast(new Vector3(transform.position.x + transform.localScale.magnitude / 1.5f, transform.position.y), new Vector2(transform.position.x + xMove, transform.position.y + yMove), bulletTravel);
         }
         else
         {
@@ -71,13 +71,13 @@ public class EnemyBullet : MonoBehaviour
             Debug.Log(ray.transform.name);
             if (ray.transform.tag == "Player")
             {
-                ray.transform.GetComponent<PlayerStats>().TakeDamage(damage);
+                ray.transform.GetComponent<PlayerStats>().TakeDamage(Damage);
             }
             Destroy(gameObject);
         }
         //Moves the bullet
         transform.position += new Vector3(xMove, yMove) * Time.deltaTime;
-        
+
         time += Time.deltaTime;
         //Destroys the bullet after a certain time
         if (time >= aliveTime)

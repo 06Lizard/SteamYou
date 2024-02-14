@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class KeyPickup : MonoBehaviour
 {
+    bool CanBePickedUp = true;
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        collision.GetComponent<PlayerStats>().PickupKey();
-        Destroy(this.gameObject);
+        if (CanBePickedUp && collision.tag == "Player")
+        {
+            CanBePickedUp = false;
+            Destroy(gameObject);
+            collision.gameObject.GetComponent<PlayerStats>().PickupKey();
+        }
     }
 }

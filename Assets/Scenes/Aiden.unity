@@ -533,8 +533,8 @@ Transform:
   m_GameObject: {fileID: 393807352}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.6181, y: 5.51, z: 0}
-  m_LocalScale: {x: 2.9362, y: 3.4642, z: 1}
+  m_LocalPosition: {x: -23.6181, y: 5.6694, z: 0}
+  m_LocalScale: {x: 2.9362, y: 3.783106, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -571,7 +571,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.3761654}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -582,7 +582,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.24766925}
   m_EdgeRadius: 0
 --- !u!1 &465005747
 GameObject:
@@ -828,7 +828,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -18.53, y: 5.26, z: -10}
+  m_LocalPosition: {x: -18.44, y: 5.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1181,6 +1181,7 @@ GameObject:
   - component: {fileID: 1227237383}
   - component: {fileID: 1227237382}
   - component: {fileID: 1227237386}
+  - component: {fileID: 1227237387}
   m_Layer: 0
   m_Name: RangedEnemy
   m_TagString: Untagged
@@ -1341,6 +1342,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1126281304}
   fireBall: {fileID: 372257704518983361, guid: d9abafec7b1c0f34ba799e7cbdea863e, type: 3}
+--- !u!114 &1227237387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227237381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc52b8378afa3ee4295ff7384f806ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 1
 --- !u!1 &1261759152
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2097,10 @@ PrefabInstance:
       propertyPath: PointRight
       value: 
       objectReference: {fileID: 185282947}
+    - target: {fileID: 5417860251496749924, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2231,6 +2249,7 @@ GameObject:
   - component: {fileID: 2102729458}
   - component: {fileID: 2102729459}
   - component: {fileID: 2102729460}
+  - component: {fileID: 2102729461}
   m_Layer: 0
   m_Name: MeleeEnemy
   m_TagString: Untagged
@@ -2384,13 +2403,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2102729455}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2402ba09862c2ac44affa8045012222e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1126281304}
   playerHealth: {fileID: 1126281308}
+--- !u!114 &2102729461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102729455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc52b8378afa3ee4295ff7384f806ab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
