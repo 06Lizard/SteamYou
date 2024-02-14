@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
@@ -8,37 +9,42 @@ public class Door : MonoBehaviour
     public PlayerStats playerStats;
     bool locked = true;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (onDoor)
         {
-            if (locked)
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                if (playerStats.UseKey())
+                if (locked)
                 {
-                    locked = false;
+                    if (playerStats.UseKey())
+                    {
+                        locked = false;
+                        Debug.Log("Change scene now");
+                        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                    }
+                }
+                else
+                {
                     Debug.Log("Change scene now");
+                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
                 }
             }
-            else
-            {
-                Debug.Log("Change scene now");
-            }
-        }
+        }      
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("test");
             onDoor = true;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.tag == "Player")
+        {
+            onDoor = false;
         }
     }
 }

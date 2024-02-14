@@ -10,7 +10,7 @@ public class MeleeEnemy : MonoBehaviour
     public PlayerStats playerHealth;
     int health = 1;
     int attackDistance = 2;
-    int damage = 1;
+    int Damage = 1;
     float time = 0;
     float attackSpeed = 3;
     float moveSpeed = 2;
@@ -34,7 +34,7 @@ public class MeleeEnemy : MonoBehaviour
     }
 
     void MoveEnemy(float distance, float num, float num2)
-    {        
+    {
         if (distance < detectDistance)
         {
             if (num > attackDistance || num < -attackDistance)
@@ -60,7 +60,7 @@ public class MeleeEnemy : MonoBehaviour
                         {
                             transform.position += new Vector3(moveXY[0], moveXY[1]) * Time.deltaTime;
                         }
-                                               
+
                     }
                 }
                 else
@@ -91,7 +91,7 @@ public class MeleeEnemy : MonoBehaviour
                     Attack();
                     time = 0;
                 }
-            }           
+            }
         }
     }
 
@@ -119,7 +119,7 @@ public class MeleeEnemy : MonoBehaviour
 
     void Attack()
     {
-        playerHealth.TakeDamage(damage);
+        player.gameObject.GetComponent<PlayerStats>().TakeDamage(Damage); // changed the mele attack so that the player can actually take damage
         Debug.Log("Attack");
     }
 }

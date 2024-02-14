@@ -37,9 +37,9 @@ public class PlayerStats : MonoBehaviour
             Die();
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(int Damage)
     {
-        HP -= damage;
+        HP -= Damage;
         if (HP <= 0)
             Die();
     }
@@ -61,8 +61,8 @@ public class PlayerStats : MonoBehaviour
     }
 
     public void PickupSword()
-    {        
-       Swords++;
+    {
+        Swords++;
     }
 
     public bool UseKey()
