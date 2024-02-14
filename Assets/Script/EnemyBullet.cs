@@ -70,7 +70,7 @@ public class EnemyBullet : MonoBehaviour
             Debug.Log(ray.transform.name);
             if (ray.transform.tag == "Player")
             {
-                //ray.transform.GetComponent<PlayerStats>().HP--;
+                ray.transform.GetComponent<PlayerStats>().TakeDamage(1);
             }
             Destroy(gameObject);
         }

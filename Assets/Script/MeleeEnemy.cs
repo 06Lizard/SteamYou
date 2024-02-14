@@ -119,7 +119,7 @@ public class MeleeEnemy : MonoBehaviour
 
     void Attack()
     {
-        //playerHealth.HP -= damage;
+        playerHealth.TakeDamage(damage);
         Debug.Log("Attack");
     }
 }

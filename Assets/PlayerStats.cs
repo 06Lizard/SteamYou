@@ -35,7 +35,7 @@ public class PlayerStats : MonoBehaviour
             Die();
     }
 
-    void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         HP -= damage;
         if (HP <= 0)
