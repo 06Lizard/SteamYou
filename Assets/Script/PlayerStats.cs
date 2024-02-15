@@ -1,12 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerStats : MonoBehaviour
 {
     [SerializeField] public int HP = 3;
-    [SerializeField] public int Respawns = 1;
     [SerializeField] public int Swords = 3;
     [SerializeField] public int Keys = 0;
     [SerializeField] private Transform PointLeft;
@@ -16,10 +13,14 @@ public class PlayerStats : MonoBehaviour
     public GameObject swordProjectilePrefab;
     public int Score = 0;
 
-    // Start is called before the first frame update
+    private DifficultySelector difficultySelector; // Reference to DifficultySelector script
+
     void Start()
     {
-
+        // Find and store the DifficultySelector component in the scene
+        difficultySelector = FindObjectOfType<DifficultySelector>();
+        HP = difficultySelector.initialHP;
+        Swords = difficultySelector.initialHP;
     }
 
     private void Update()
@@ -48,7 +49,15 @@ public class PlayerStats : MonoBehaviour
     public void Die()
     {
         Debug.Log("You Died");
-        Destroy(gameObject); // Destroy the GameObject to which this script is attached
+        difficultySelector.Respawns -= 1;
+        if (difficultySelector.Respawns <= 0)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
     private void Attack()
