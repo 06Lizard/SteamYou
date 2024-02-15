@@ -33,7 +33,7 @@ public class UIText : MonoBehaviour
 
     void UpdateText()
     {
-        score.text = "Score: " + playerStats.Score;
+        score.text = "Score: " + difficultySelector.Score;
         time.text = "Time: " + (int)timer.time;
         swords.text = "Swords: " + playerStats.Swords;
         keys.text = "Keys: " + playerStats.Keys;

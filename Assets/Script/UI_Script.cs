@@ -6,6 +6,7 @@ using UnityEngine;
 public class UI_Script : MonoBehaviour
 {
     public PlayerStats playerStats; // Reference to the PlayerStats script
+    private DifficultySelector difficultySelector; // Reference to DifficultySelector script
 
     public TextMeshProUGUI HP_textMeshProComponent;
     public TextMeshProUGUI Score_textMeshProComponent;
@@ -27,7 +28,7 @@ public class UI_Script : MonoBehaviour
     void UpdateNumberText()
     {       
         HP_textMeshProComponent.text = playerStats.HP.ToString();
-        Score_textMeshProComponent.text = playerStats.Score.ToString();
+        Score_textMeshProComponent.text = difficultySelector.Score.ToString();
         Swords_textMeshProComponent.text = playerStats.Swords.ToString();
         Keys_textMeshProComponent.text = playerStats.Keys.ToString();
     }
