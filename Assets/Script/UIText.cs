@@ -16,9 +16,12 @@ public class UIText : MonoBehaviour
     public PlayerStats playerStats;
     public Timer timer;
 
+    private DifficultySelector difficultySelector; // Reference to DifficultySelector script
+
     // Start is called before the first frame update
     void Start()
     {
+        difficultySelector = FindObjectOfType<DifficultySelector>();
         hearts = GameObject.FindGameObjectsWithTag("Heart").ToList();       
     }
 
@@ -34,7 +37,7 @@ public class UIText : MonoBehaviour
         time.text = "Time: " + (int)timer.time;
         swords.text = "Swords: " + playerStats.Swords;
         keys.text = "Keys: " + playerStats.Keys;
-        respawns.text = "Respawns: " + playerStats.Respawns;
+        respawns.text = "Respawns: " + difficultySelector.Respawns;
         if (hearts.ToArray().Length > playerStats.HP)
         {
             hearts[0].SetActive(false);
