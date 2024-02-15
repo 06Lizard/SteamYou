@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/FinalScenes/Died.unity
     guid: 56c38c5e52e73bf4598055ad9265d781
   - enabled: 1
-    path: Assets/Scenes/FinalScenes/MenuScenes/Menu.unity
+    path: Assets/Scenes/FinalScenes/Menu.unity
     guid: 83c03099cd6f04d4eba5f3131d8af1c3
   - enabled: 1
     path: Assets/Scenes/FinalScenes/Level_1.unity

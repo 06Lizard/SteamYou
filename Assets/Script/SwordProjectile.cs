@@ -29,7 +29,7 @@ public class SwordProjectile : MonoBehaviour
     {
         try
         {
-        collision.gameObject.GetComponent<EnemyTmpScipt>().TakeDamage(Damage);
+        collision.gameObject.GetComponent<EnemyHP>().TakeDamage(Damage);
         }
         catch { }
         BecomePickup();
