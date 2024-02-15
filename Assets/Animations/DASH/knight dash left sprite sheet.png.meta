@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b769ec1d70d47d84bb3494c0c389138e
+guid: 3f33673216e43464380fdbe4c3aaf95b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knight dash right sprite sheet_0
+      name: knight dash left sprite sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e257e98ebc7c8a4cb58c985baaabd5e
-      internalID: -1705595832
+      spriteID: 306bb481962d84d46a9afcc09cee91c0
+      internalID: -384836007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_1
+      name: knight dash left sprite sheet_1
       rect:
         serializedVersion: 2
         x: 480
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d6d4ca19b958a74c92a9c5449512995
-      internalID: 2144050325
+      spriteID: 166380989bfb0484f992c731b0c4f9e1
+      internalID: -546709740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_2
+      name: knight dash left sprite sheet_2
       rect:
         serializedVersion: 2
         x: 960
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19736c9b6ab36fc4aa641bcb79f0f98e
-      internalID: -933279994
+      spriteID: 3fa9fc0edd5c0d24cbd12a6e5859f5fa
+      internalID: 1716582051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_3
+      name: knight dash left sprite sheet_3
       rect:
         serializedVersion: 2
         x: 1440
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31093b2233df606418f28595cd5d5c06
-      internalID: -1081029587
+      spriteID: ab34c0b054c067f46a47683c1e5a33cd
+      internalID: 1426299496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_4
+      name: knight dash left sprite sheet_4
       rect:
         serializedVersion: 2
         x: 1920
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1abfb98fec4b2fa4aa205513f8fe4e0e
-      internalID: 1474166598
+      spriteID: 6f2e04eb599f7664c8f5a16f097a15d1
+      internalID: -1507484009
       vertices: []
       indices: 
       edges: []
@@ -225,11 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      knight dash right sprite sheet_0: -1705595832
-      knight dash right sprite sheet_1: 2144050325
-      knight dash right sprite sheet_2: -933279994
-      knight dash right sprite sheet_3: -1081029587
-      knight dash right sprite sheet_4: 1474166598
+      knight dash left sprite sheet_0: -384836007
+      knight dash left sprite sheet_1: -546709740
+      knight dash left sprite sheet_2: 1716582051
+      knight dash left sprite sheet_3: 1426299496
+      knight dash left sprite sheet_4: -1507484009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
