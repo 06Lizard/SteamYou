@@ -1,0 +1,391 @@
+fileFormatVersion: 2
+guid: bd66d29e23dbe5f4caada8095d2c65be
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._0"
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cb44e2097645d64a9ffe5ffe0dd5f1d
+      internalID: 2029095010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._1"
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff4c367d3e62ea4cae40f30144f8ebd
+      internalID: -635504257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._2"
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356f938cf81d55344887957668ab3efc
+      internalID: -1691492054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._3"
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cd5a8761e06d54fad1cda5fa67d63e
+      internalID: -2036011965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._4"
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fe9462a2d2b6b48a5af42e140739cf
+      internalID: 488960802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._5"
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05110a2d63544244a2fb93cb57c3470
+      internalID: 1858182161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._6"
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf77c978129a51408bffdb04775bf07
+      internalID: -998233788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._7"
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98283f47dc4de04a8fe7f96e6b49d60
+      internalID: 78141729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._8"
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6bd9abb2f76ba74292bf7f67644ece5
+      internalID: -35589463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._9"
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6b08bb4038b2b479e2ac8f7efcd950
+      internalID: 1814561287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._10"
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b56a1d12ac2e2488758097a627e2e6
+      internalID: -680755595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._11"
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 0
+        width: 235.83333
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b81886e4e87b7e4aa19efede45d7043
+      internalID: -1845474693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._0": 2029095010
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._1": -635504257
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._10": -680755595
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._11": -1845474693
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._2": -1691492054
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._3": -2036011965
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._4": 488960802
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._5": 1858182161
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._6": -998233788
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._7": 78141729
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._8": -35589463
+      "gr\xF6n gubbe sl\xE5r \xE5t h\xF6ger och g\xE5r._9": 1814561287
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
