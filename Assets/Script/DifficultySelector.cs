@@ -7,7 +7,7 @@ public class DifficultySelector : MonoBehaviour
     public int initialHP;
     public int initialSwords;
     public int Respawns;
-    public int SelectedDiff;
+    public int SelectedDiff = 0;
 
     // Ensure the object persists between scenes
     private void Awake()
@@ -17,17 +17,17 @@ public class DifficultySelector : MonoBehaviour
 
     public void Easy()
     {
-        SelectedDiff = 0;
+        SelectedDiff = 1;
         ApplyDifficultySettings();
     }
     public void Medium()
     {
-        SelectedDiff = 1;
+        SelectedDiff = 2;
         ApplyDifficultySettings();
     }
     public void Hard()
     {
-        SelectedDiff = 2;
+        SelectedDiff = 3;
         ApplyDifficultySettings();
     }
 
@@ -36,15 +36,15 @@ public class DifficultySelector : MonoBehaviour
         // Apply initial stats to the player based on the selected difficulty
         switch (SelectedDiff)
         {
-            case 0: // Easy
+            case 1: // Easy
                 initialHP = 3;
                 initialSwords = 3;
                 break;
-            case 1: // Medium
+            case 2: // Medium
                 initialHP = 2;
                 initialSwords = 2;
                 break;
-            case 2: // Hard
+            case 3: // Hard
                 initialHP = 1;
                 initialSwords = 1;
                 break;

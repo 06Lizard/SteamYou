@@ -44,5 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcbdd5eaa4340634c9400504f175ba7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SelectedDiff: 2
-  playerStats: {fileID: 0}
+  initialHP: 0
+  initialSwords: 0
+  Respawns: 0
+  SelectedDiff: 0
