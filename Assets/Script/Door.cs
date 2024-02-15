@@ -21,14 +21,14 @@ public class Door : MonoBehaviour
                     if (playerStats.UseKey())
                     {
                         locked = false;
-                        Debug.Log("Change scene now");
-                        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+                        //Debug.Log("Change scene now");
+                        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
                     }
                 }
                 else
                 {
-                    Debug.Log("Change scene now");
-                    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+                    //Debug.Log("Change scene now");
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
                 }
             }
         }      
