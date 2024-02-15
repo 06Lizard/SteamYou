@@ -6,19 +6,19 @@ using System;
 
 public class Timer : MonoBehaviour
 {
-    float time = 0;
-    public TMP_Text timerText;
-    public Score score;
+    public float time = 0;
+    int lastValue = 0;
+    public int timePoints;
+    public PlayerStats playerStats;
 
     // Update is called once per frame
     void Update()
     {
         time += Time.deltaTime;
-        timerText.text = "Time: " + ((int)time).ToString();
-
-        if (time % 5 == 0)
+        if ((int)time > lastValue)
         {
-            score.timeScoreUpdate();
-        }         
+            playerStats.AddToScore(timePoints);
+            lastValue++;
+        }
     }
 }
