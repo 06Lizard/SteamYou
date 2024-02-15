@@ -2,7 +2,10 @@ using UnityEngine;
 using UnityEngine.Events;
 
 class CharacterController2D : MonoBehaviour
+    
 {
+    public Animator animator;
+
     [SerializeField] private float m_JumpForce = 400f;                          // Amount of force added when the player jumps.
     [SerializeField] private float m_DashForce = 400f;                          // Amount of force added when the player dashes.
     [Range(0, 1)][SerializeField] private float m_CrouchSpeed = .36f;           // Amount of maxSpeed applied to crouching movement. 1 = 100%
@@ -32,6 +35,8 @@ class CharacterController2D : MonoBehaviour
     public BoolEvent OnCrouchEvent;
     private bool m_wasCrouching = false;
 
+   
+
     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
@@ -45,6 +50,7 @@ class CharacterController2D : MonoBehaviour
 
     private void FixedUpdate()
     {
+
         bool wasGrounded = m_Grounded;
         m_Grounded = false;
 
@@ -61,6 +67,8 @@ class CharacterController2D : MonoBehaviour
                     OnLandEvent.Invoke();
             }
         }
+        animator.SetBool("IsGrounded", m_Grounded);
+        animator.SetFloat("VerticalSpeed", m_Rigidbody2D.velocity.y);
     }
 
 
