@@ -14,7 +14,7 @@ public class Door : MonoBehaviour
     {
         if (onDoor)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetButtonDown("Interact"))
             {
                 if (locked)
                 {
