@@ -12,8 +12,8 @@ public class RangedEnemy : MonoBehaviour
 
     List<GameObject> allFireBalls = new List<GameObject>();
 
-    float shootRange = 50;
-    float shootCooldown = 5;
+    float shootRange = 50; //How far the enemy can detect the player from and start to shoot
+    float shootCooldown = 5; //How fast the enemy can shoot
     float time;
 
     private void Start()

@@ -8,7 +8,7 @@ public class EnemyBullet : MonoBehaviour
     float xMove = 5f;
     float yMove;
     float time;
-    float aliveTime = 5;
+    float aliveTime = 5; //How long the bullet is alive for after being shoot
     int Damage = 1;
 
     public void SetPlayerPos(GameObject player)
