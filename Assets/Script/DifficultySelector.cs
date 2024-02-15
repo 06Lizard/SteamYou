@@ -1,3 +1,4 @@
+using System.Threading;
 using Unity.Collections.LowLevel.Unsafe;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,6 +9,7 @@ public class DifficultySelector : MonoBehaviour
     public int initialSwords;
     public int Respawns;
     public int SelectedDiff = 0;
+    public int Score = 0;
 
     // Ensure the object persists between scenes
     private void Awake()
@@ -39,14 +41,18 @@ public class DifficultySelector : MonoBehaviour
             case 1: // Easy
                 initialHP = 3;
                 initialSwords = 3;
+                Respawns = 2;
                 break;
             case 2: // Medium
                 initialHP = 2;
                 initialSwords = 2;
+                Respawns = 1;
+
                 break;
             case 3: // Hard
                 initialHP = 1;
                 initialSwords = 1;
+                Respawns = 0;
                 break;
             default:
                 Debug.LogWarning("Invalid difficulty selected.");

@@ -11,7 +11,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private Transform PlayersTransform;
     public Transform firePoint;
     public GameObject swordProjectilePrefab;
-    public int Score = 0;
+    //public int Score = 0;
 
     private DifficultySelector difficultySelector; // Reference to DifficultySelector script
 
@@ -50,7 +50,7 @@ public class PlayerStats : MonoBehaviour
     {
         Debug.Log("You Died");
         difficultySelector.Respawns -= 1;
-        if (difficultySelector.Respawns <= 0)
+        if (difficultySelector.Respawns < 0)
         {
             SceneManager.LoadScene(0);
         }
@@ -92,6 +92,6 @@ public class PlayerStats : MonoBehaviour
 
     public void AddToScore(int points)
     {
-        Score += points;
+        difficultySelector.Score += points;
     }
 }
