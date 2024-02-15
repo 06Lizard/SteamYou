@@ -52505,10 +52505,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6061108519778521266, guid: 84ba0a96259d933478944260fad4fcda, type: 3}
+      propertyPath: orthographic size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 6993346260433888764, guid: 84ba0a96259d933478944260fad4fcda, type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 355221242}
+    - target: {fileID: 6993346260433888764, guid: 84ba0a96259d933478944260fad4fcda, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

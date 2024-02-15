@@ -10,6 +10,7 @@ public class DifficultySelector : MonoBehaviour
     public int Respawns;
     public int SelectedDiff = 0;
     public int Score = 0;
+    private int ScoreSave = 0;
 
     // Ensure the object persists between scenes
     private void Awake()
@@ -61,5 +62,15 @@ public class DifficultySelector : MonoBehaviour
                 break;
         }
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void SaveScore()
+    {
+        ScoreSave = Score;
+    }
+
+    public void LoadScore()
+    {
+        Score = ScoreSave;
     }
 }

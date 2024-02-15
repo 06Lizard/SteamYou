@@ -19,6 +19,7 @@ public class PlayerStats : MonoBehaviour
     {
         // Find and store the DifficultySelector component in the scene
         difficultySelector = FindObjectOfType<DifficultySelector>();
+        difficultySelector.SaveScore();
         HP = difficultySelector.initialHP;
         Swords = difficultySelector.initialHP;
     }
@@ -56,6 +57,7 @@ public class PlayerStats : MonoBehaviour
         }
         else
         {
+            difficultySelector.LoadScore();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
