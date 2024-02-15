@@ -9,13 +9,13 @@ public class MeleeEnemy : MonoBehaviour
     public GameObject player;
     public PlayerStats playerHealth;
     int health = 1;
-    int attackDistance = 2;
+    int attackDistance = 2; //How far away the enemy can hit the player from
     int Damage = 1;
     float time = 0;
-    float attackSpeed = 3;
+    float attackSpeed = 2; //Changes the speed of which the enemy can attack
     float moveSpeed = 2;
 
-    float detectDistance = 30;
+    float detectDistance = 30; //How far away the enemy will start to detect the player
 
     void Update()
     {
