@@ -9,6 +9,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private Transform PointLeft;
     [SerializeField] private Transform PointRight;
     [SerializeField] private Transform PlayersTransform;
+    [SerializeField] private Animator animator;
     public Transform firePoint;
     public GameObject swordProjectilePrefab;
     //public int Score = 0;

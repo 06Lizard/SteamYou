@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -15,8 +16,9 @@ class CharacterController2D : MonoBehaviour
     [SerializeField] private Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.
     [SerializeField] private Transform m_CeilingCheck;                          // A position marking where to check for ceilings
     [SerializeField] private Collider2D m_CrouchDisableCollider;                // A collider that will be disabled when crouching
+    [SerializeField] private PlayerMovement playerMovement;
 
-    const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
+    const float k_GroundedRadius = .01f; // Radius of the overlap circle to determine if grounded
     private bool m_Grounded;            // Whether or not the player is grounded.
     const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
     private Rigidbody2D m_Rigidbody2D;
@@ -35,9 +37,9 @@ class CharacterController2D : MonoBehaviour
     public BoolEvent OnCrouchEvent;
     private bool m_wasCrouching = false;
 
-   
+    
 
-    private void Awake()
+     private void Awake()
     {
         m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
@@ -47,11 +49,12 @@ class CharacterController2D : MonoBehaviour
         if (OnCrouchEvent == null)
             OnCrouchEvent = new BoolEvent();
     }
-
+    bool wasGrounded = true;
     private void FixedUpdate()
     {
-
-        bool wasGrounded = m_Grounded;
+        
+        bool wasWasGrounded = wasGrounded;
+        wasGrounded = m_Grounded;
         m_Grounded = false;
 
         // The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
@@ -63,8 +66,18 @@ class CharacterController2D : MonoBehaviour
             {
                 m_Grounded = true;
                 m_Dashed = false;
+                Debug.Log("wasgrounded: " + wasGrounded);
+                Debug.Log("Waswasgrounded: " + wasWasGrounded);
                 if (!wasGrounded)
-                    OnLandEvent.Invoke();
+                {                    
+                    OnLandEvent.Invoke();                
+                }
+                else if (wasGrounded && !wasWasGrounded)
+                {
+                    Debug.Log("stop jump");
+                    playerMovement.Onlanding();
+                    playerMovement.OnDashEnd();
+                }                  
             }
         }
     }
@@ -145,6 +158,8 @@ class CharacterController2D : MonoBehaviour
         {
             // Add a vertical force to the player.            
             m_Dashed = true;
+            playerMovement.Onlanding();
+            animator.SetBool("IsDashing", true);
             if (m_FacingRight)
                 m_Rigidbody2D.AddForce(new Vector2(m_DashForce, 0f));
             else
