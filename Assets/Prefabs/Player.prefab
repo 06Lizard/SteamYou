@@ -66,7 +66,8 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 3123281123765257280}
   m_CeilingCheck: {fileID: 3881741253399726089}
   m_CrouchDisableCollider: {fileID: 0}
-  playerMovement: {fileID: 0}
+  playerMovement: {fileID: 6494358954955604545}
+  m_Dashed: 0
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -106,7 +107,7 @@ MonoBehaviour:
   PointLeft: {fileID: 0}
   PointRight: {fileID: 0}
   PlayersTransform: {fileID: 2602014894545840635}
-  animator: {fileID: 0}
+  animator: {fileID: 3437565786632427380}
   firePoint: {fileID: 2295268626751362283}
   swordProjectilePrefab: {fileID: 4731031141179067991, guid: 9911545489865fb419310e3360f2bcb4, type: 3}
 --- !u!50 &2115948690493982335

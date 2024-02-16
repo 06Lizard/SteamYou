@@ -81,13 +81,13 @@ public class DifficultySelector : MonoBehaviour
     {
         if (Input.anyKeyDown && CanGoBack)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            SceneManager.LoadScene(0);
             Destroy(gameObject);
         }
     }
     private void FixedUpdate()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
+        if (SceneManager.GetActiveScene().buildIndex == 7)
         {
             // Increment the timer every fixed update
             Timer++;
