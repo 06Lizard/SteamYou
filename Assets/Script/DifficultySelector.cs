@@ -1,5 +1,6 @@
 using System.Threading;
 using Unity.Collections.LowLevel.Unsafe;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -11,6 +12,8 @@ public class DifficultySelector : MonoBehaviour
     public int SelectedDiff = 0;
     public int Score = 0;
     private int ScoreSave = 0;
+    private bool CanGoBack = false;
+    private int Timer = 0;
 
     // Ensure the object persists between scenes
     private void Awake()
@@ -72,5 +75,28 @@ public class DifficultySelector : MonoBehaviour
     public void LoadScore()
     {
         Score = ScoreSave;
+    }
+
+    private void Update()
+    {
+        if (Input.anyKeyDown && CanGoBack)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+            Destroy(gameObject);
+        }
+    }
+    private void FixedUpdate()
+    {
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+        {
+            // Increment the timer every fixed update
+            Timer++;
+
+            // Check if 180 fixed updates have passed (assuming FixedUpdate is called every 0.02s)
+            if (Timer >= 180)
+            {
+                CanGoBack = true;
+            }
+        }
     }
 }
