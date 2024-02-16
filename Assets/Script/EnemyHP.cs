@@ -6,7 +6,6 @@ public class EnemyHP : MonoBehaviour
 {
     [SerializeField] private int HP;
     [SerializeField] private bool boss = false;
-    [SerializeField] private Transform selfTrans;
     [SerializeField] private GameObject BossKeyPrefab;
 
     private void Start()
@@ -21,7 +20,7 @@ public class EnemyHP : MonoBehaviour
         {
             if (boss)
             {
-                Instantiate(BossKeyPrefab, selfTrans.position, selfTrans.rotation);
+                Instantiate(BossKeyPrefab, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
             else
