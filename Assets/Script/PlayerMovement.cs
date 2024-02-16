@@ -23,14 +23,15 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
+            Debug.Log("Start jump");
             jump = true;
             animator.SetBool("IsJumping", true);
         }
-        if (Input.GetButtonDown("Dash"))
-        {
-            dash = true;
-            animator.SetBool("IsDashing", true);
-        }
+        //if (Input.GetButtonDown("Dash"))
+        //{
+        //    dash = true;
+        //    animator.SetBool("IsDashing", true);
+        //}
     }
 
 
@@ -44,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnDashEnd()
     {
-    animator.SetBool("IsDashing", false);
+        animator.SetBool("IsDashing", false);
     }
 
 private void FixedUpdate()

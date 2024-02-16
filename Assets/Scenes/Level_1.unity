@@ -283,7 +283,27 @@ PrefabInstance:
       value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 2532058638719059458, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1840176118}
+    - target: {fileID: 2532058638719059458, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
       propertyPath: m_CrouchSpeed
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532058638719059458, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+      propertyPath: playerMovement
+      value: 
+      objectReference: {fileID: 1840176116}
+    - target: {fileID: 2532058638719059458, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532058638719059458, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532058638719059458, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2602014894545840635, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
@@ -51261,6 +51281,22 @@ PrefabInstance:
 --- !u!1 &1840176110 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 302521457914669043, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+  m_PrefabInstance: {fileID: 397824806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1840176116 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6494358954955604545, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
+  m_PrefabInstance: {fileID: 397824806}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840176110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 925baa5be354bcb47bf2f3e528cec876, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1840176118 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3437565786632427380, guid: 74f15651b36d03446a21e3ea64cb00b3, type: 3}
   m_PrefabInstance: {fileID: 397824806}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &1974558569 stripped

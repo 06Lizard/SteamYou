@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5327080248547207125}
   - component: {fileID: 759463520308359122}
   - component: {fileID: 6246156264659981708}
+  - component: {fileID: 7554361000528987853}
   m_Layer: 8
   m_Name: SwordProjectile
   m_TagString: Untagged
@@ -176,3 +177,24 @@ MonoBehaviour:
   Damage: 1
   swordPickupPrefab: {fileID: 1300817144743699873, guid: 9cb374912cc074a49aaa50c263a5418e, type: 3}
   SwordTrans: {fileID: 2294210843824710337}
+--- !u!95 &7554361000528987853
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4731031141179067991}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c8db9c32bd50a9f4284128acb404f1d9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
