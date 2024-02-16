@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
             jump = true;
             animator.SetBool("IsJumping", true);
         }
-        if (Input.GetButtonDown("Dash"))
+        if (Input.GetButtonDown("Jump") && jump)
         {
             dash = true;
             animator.SetBool("IsDashing", true);

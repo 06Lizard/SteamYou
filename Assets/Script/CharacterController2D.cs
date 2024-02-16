@@ -22,8 +22,8 @@ class CharacterController2D : MonoBehaviour
     private Rigidbody2D m_Rigidbody2D;
     private bool m_FacingRight = true;  // For determining which way the player is currently facing.
     private Vector3 m_Velocity = Vector3.zero;
-    private bool m_Dashed = false;      // Whether or not the player has dashed
-
+    public bool m_Dashed = false;      // Whether or not the player has dashed
+    
     [Header("Events")]
     [Space]
 
