@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -71,8 +71,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 1
-    textureFormat: 4
-    textureCompression: 1
+    textureFormat: -1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,12 +113,12 @@ TextureImporter:
       name: knight dash right sprite sheet (1)_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 480
-        height: 960
+        x: 45
+        y: 45
+        width: 226
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: knight dash right sprite sheet (1)_1
       rect:
         serializedVersion: 2
-        x: 480
-        y: 0
-        width: 480
-        height: 960
+        x: 525
+        y: 45
+        width: 240
+        height: 480
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: knight dash right sprite sheet (1)_2
       rect:
         serializedVersion: 2
-        x: 960
-        y: 0
-        width: 480
-        height: 960
+        x: 956
+        y: 51
+        width: 334
+        height: 474
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: knight dash right sprite sheet (1)_3
       rect:
         serializedVersion: 2
-        x: 1440
-        y: 0
-        width: 480
-        height: 960
+        x: 1485
+        y: 479
+        width: 30
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: knight dash right sprite sheet (1)_4
       rect:
         serializedVersion: 2
-        x: 1920
-        y: 0
-        width: 480
-        height: 960
+        x: 1448
+        y: 44
+        width: 427
+        height: 481
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,6 +210,237 @@ TextureImporter:
       bones: []
       spriteID: 7a7db49758ef4324885a00ca07987b9c
       internalID: -438235802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_5
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 45
+        width: 257
+        height: 480
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 346a268541e2b6a4f9bd0f082e98241b
+      internalID: 886530634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_6
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 449
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 869ab2e41e81ced4dac46c518c4f63eb
+      internalID: -1022912112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_7
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 404
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5e2d39bb294c74697c143c374bca22
+      internalID: 306358518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 420
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3e636daf2efad42a9716d082342aa7
+      internalID: -2124448724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_9
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 360
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8396694d13a687b448c71c1b45eb79c2
+      internalID: -161367991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 360
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b154b3349983042b4cea63c999fcb6
+      internalID: -1556877834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_11
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 329
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871015a2e18842f43b25bdbb5c037bad
+      internalID: -2109374820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 300
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010cf06b0f686b4b8ce76d88102b55b
+      internalID: 1851768927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 254
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304f21e74e298a946974173bd3b2dfa2
+      internalID: 395468288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_14
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 135
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba972e01d53ff946bba8c1b49243f49
+      internalID: -265524970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash right sprite sheet (1)_15
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 45
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab951cbff15d5448b48561627518d0b
+      internalID: 2053658903
       vertices: []
       indices: 
       edges: []
@@ -227,9 +458,20 @@ TextureImporter:
     nameFileIdTable:
       knight dash right sprite sheet (1)_0: 2032570188
       knight dash right sprite sheet (1)_1: 1108010305
+      knight dash right sprite sheet (1)_10: -1556877834
+      knight dash right sprite sheet (1)_11: -2109374820
+      knight dash right sprite sheet (1)_12: 1851768927
+      knight dash right sprite sheet (1)_13: 395468288
+      knight dash right sprite sheet (1)_14: -265524970
+      knight dash right sprite sheet (1)_15: 2053658903
       knight dash right sprite sheet (1)_2: -1511556806
       knight dash right sprite sheet (1)_3: 552837285
       knight dash right sprite sheet (1)_4: -438235802
+      knight dash right sprite sheet (1)_5: 886530634
+      knight dash right sprite sheet (1)_6: -1022912112
+      knight dash right sprite sheet (1)_7: 306358518
+      knight dash right sprite sheet (1)_8: -2124448724
+      knight dash right sprite sheet (1)_9: -161367991
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
