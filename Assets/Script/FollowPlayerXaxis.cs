@@ -5,8 +5,10 @@ using UnityEngine;
 public class FollowPlayerXaxis : MonoBehaviour
 {
     public Transform playerTransform;
-    public float minX = -19f;
-    public float maxX = -1f;
+    [SerializeField] public float minX = -19f;
+    [SerializeField] public float maxX = -1f;
+    [SerializeField] private bool boss = false;
+    public BossRoomTrigger BossRoomTrigger;
 
     // Update is called once per frame
     void Update()
@@ -21,6 +23,11 @@ public class FollowPlayerXaxis : MonoBehaviour
 
             // Update the position of the camera
             transform.position = newPosition;
+
+            if(boss && (newPosition.x >= maxX))
+            {
+                BossRoomTrigger.FocalPointFocus();
+            }
         }
     }
 }
