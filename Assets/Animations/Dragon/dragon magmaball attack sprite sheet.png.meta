@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 507b6738d0d7df14c84610ed5bd18b89
+guid: bafbb231398167d42ae173dbbb9f8dac
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,8 +70,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -110,169 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC-jumping-Right_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef9d32f8613626a4ea4bcc55351d3e70
-      internalID: -579175595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_1
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8da0eb1e4af614141b0195ed4784ff5d
-      internalID: 1549336973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_2
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1cb027ee9ae63c74ca7c8e3a2d8b7b62
-      internalID: -280369142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_3
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 547419524dc777e489fb4e0f13e62155
-      internalID: 1667199108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_4
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 174992a8a84a09f4eadfbc4dc5cce384
-      internalID: 1942050813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_5
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c69ec0dd3ac550147be1ecf5dfc10496
-      internalID: 1437289193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_6
+      name: dragon magmaball attack sprite sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 240
-        height: 960
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5ccd2056c916449bc82a104a90ab2b
-      internalID: 1145713037
+      spriteID: a215bf5fb4ae6a041820300f26f9af6b
+      internalID: -1603049178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_7
+      name: dragon magmaball attack sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 240
+        x: 64
         y: 0
-        width: 240
-        height: 960
+        width: 64
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d569a6386f5e1914fb4e0e7a7f7e7242
-      internalID: 175530107
+      spriteID: 50a37102221a9524793cc36affc92871
+      internalID: 898769583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon magmaball attack sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea506b0fd09c20439845f3a84846232
+      internalID: 1011292065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dragon magmaball attack sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677997d6ca69e844b96eb96aa03ec33e
+      internalID: -1911231113
       vertices: []
       indices: 
       edges: []
@@ -288,14 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC-jumping-Right_0: -579175595
-      MC-jumping-Right_1: 1549336973
-      MC-jumping-Right_2: -280369142
-      MC-jumping-Right_3: 1667199108
-      MC-jumping-Right_4: 1942050813
-      MC-jumping-Right_5: 1437289193
-      MC-jumping-Right_6: 1145713037
-      MC-jumping-Right_7: 175530107
+      dragon magmaball attack sprite sheet_0: -1603049178
+      dragon magmaball attack sprite sheet_1: 898769583
+      dragon magmaball attack sprite sheet_2: 1011292065
+      dragon magmaball attack sprite sheet_3: -1911231113
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

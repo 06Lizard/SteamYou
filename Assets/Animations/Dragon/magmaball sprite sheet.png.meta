@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b769ec1d70d47d84bb3494c0c389138e
+guid: f25818e1aa69bd94ea15c011e854c837
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -70,8 +70,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: knight dash right sprite sheet_0
+      name: magmaball sprite sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 480
-        height: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e257e98ebc7c8a4cb58c985baaabd5e
-      internalID: -1705595832
+      spriteID: ff66211549c40704db485336ddfe5860
+      internalID: -1124669165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_1
+      name: magmaball sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 480
+        x: 32
         y: 0
-        width: 480
-        height: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d6d4ca19b958a74c92a9c5449512995
-      internalID: 2144050325
+      spriteID: bfab8755b17dbb74bba6f5adf3acd910
+      internalID: 1093930780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_2
+      name: magmaball sprite sheet_2
       rect:
         serializedVersion: 2
-        x: 960
+        x: 64
         y: 0
-        width: 480
-        height: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19736c9b6ab36fc4aa641bcb79f0f98e
-      internalID: -933279994
+      spriteID: 376473f91db1547439baa1c4ea75e234
+      internalID: -1055275369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_3
+      name: magmaball sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 96
         y: 0
-        width: 480
-        height: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31093b2233df606418f28595cd5d5c06
-      internalID: -1081029587
+      spriteID: 9bc4da4edbe809e45ad08917576e101c
+      internalID: -1394924084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: knight dash right sprite sheet_4
+      name: magmaball sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 1920
+        x: 128
         y: 0
-        width: 480
-        height: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1abfb98fec4b2fa4aa205513f8fe4e0e
-      internalID: 1474166598
+      spriteID: 5169d52909da0574990b7c870791dc37
+      internalID: -1469948300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: magmaball sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e238894dbf02b40a6c24f98a161e3e
+      internalID: 1665481190
       vertices: []
       indices: 
       edges: []
@@ -225,11 +246,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      knight dash right sprite sheet_0: -1705595832
-      knight dash right sprite sheet_1: 2144050325
-      knight dash right sprite sheet_2: -933279994
-      knight dash right sprite sheet_3: -1081029587
-      knight dash right sprite sheet_4: 1474166598
+      magmaball sprite sheet_0: -1124669165
+      magmaball sprite sheet_1: 1093930780
+      magmaball sprite sheet_2: -1055275369
+      magmaball sprite sheet_3: -1394924084
+      magmaball sprite sheet_4: -1469948300
+      magmaball sprite sheet_5: 1665481190
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

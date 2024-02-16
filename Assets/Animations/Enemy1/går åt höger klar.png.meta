@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 507b6738d0d7df14c84610ed5bd18b89
+guid: bc629e38aebdd004eb671c3d11b9ab23
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,8 +70,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -110,169 +110,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC-jumping-Right_0
+      name: "g\xE5r \xE5t h\xF6ger klar_0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9d32f8613626a4ea4bcc55351d3e70
-      internalID: -579175595
+      spriteID: edd342565774c0a4384cfa8cfc413b8a
+      internalID: -572584373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_1
+      name: "g\xE5r \xE5t h\xF6ger klar_1"
       rect:
         serializedVersion: 2
         x: 240
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da0eb1e4af614141b0195ed4784ff5d
-      internalID: 1549336973
+      spriteID: beb4255fca6d07b40ba01429a9379c29
+      internalID: 1613927921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_2
+      name: "g\xE5r \xE5t h\xF6ger klar_2"
       rect:
         serializedVersion: 2
         x: 480
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb027ee9ae63c74ca7c8e3a2d8b7b62
-      internalID: -280369142
+      spriteID: 302c8e2c0f8801b4b9ceaf0b6d6423c6
+      internalID: -148483226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_3
+      name: "g\xE5r \xE5t h\xF6ger klar_3"
       rect:
         serializedVersion: 2
         x: 720
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547419524dc777e489fb4e0f13e62155
-      internalID: 1667199108
+      spriteID: 5e421c15df2d0924a9965e4f44b4e82d
+      internalID: 1851942522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_4
+      name: "g\xE5r \xE5t h\xF6ger klar_4"
       rect:
         serializedVersion: 2
         x: 960
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 174992a8a84a09f4eadfbc4dc5cce384
-      internalID: 1942050813
+      spriteID: 2ebc1e2b070e2cd4094a35c377ae5aa7
+      internalID: -1398526563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_5
+      name: "g\xE5r \xE5t h\xF6ger klar_5"
       rect:
         serializedVersion: 2
         x: 1200
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69ec0dd3ac550147be1ecf5dfc10496
-      internalID: 1437289193
+      spriteID: 4ce6609bd47fc04489b63433f26e1acb
+      internalID: 920309494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_6
+      name: "g\xE5r \xE5t h\xF6ger klar_6"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1440
         y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5ccd2056c916449bc82a104a90ab2b
-      internalID: 1145713037
+      spriteID: 606ab98cc71052549867085860a9be73
+      internalID: -153286751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_7
+      name: "g\xE5r \xE5t h\xF6ger klar_7"
       rect:
         serializedVersion: 2
-        x: 240
+        x: 1680
         y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d569a6386f5e1914fb4e0e7a7f7e7242
-      internalID: 175530107
+      spriteID: decd360bb15c7544095f708255337fed
+      internalID: 645894119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "g\xE5r \xE5t h\xF6ger klar_8"
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d3750e53e54e54885fa50ce2cf592d
+      internalID: -2063543730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "g\xE5r \xE5t h\xF6ger klar_9"
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d054a5d7ffca4534286026cf1f629350
+      internalID: -402232739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "g\xE5r \xE5t h\xF6ger klar_10"
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe76f1d17e77714f9403f5dbca85145
+      internalID: 198578313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "g\xE5r \xE5t h\xF6ger klar_11"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b90829c4a2cd0b4f9d79decb37baebc
+      internalID: 887159825
       vertices: []
       indices: 
       edges: []
@@ -288,14 +372,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC-jumping-Right_0: -579175595
-      MC-jumping-Right_1: 1549336973
-      MC-jumping-Right_2: -280369142
-      MC-jumping-Right_3: 1667199108
-      MC-jumping-Right_4: 1942050813
-      MC-jumping-Right_5: 1437289193
-      MC-jumping-Right_6: 1145713037
-      MC-jumping-Right_7: 175530107
+      "g\xE5r \xE5t h\xF6ger klar_0": -572584373
+      "g\xE5r \xE5t h\xF6ger klar_1": 1613927921
+      "g\xE5r \xE5t h\xF6ger klar_10": 198578313
+      "g\xE5r \xE5t h\xF6ger klar_11": 887159825
+      "g\xE5r \xE5t h\xF6ger klar_2": -148483226
+      "g\xE5r \xE5t h\xF6ger klar_3": 1851942522
+      "g\xE5r \xE5t h\xF6ger klar_4": -1398526563
+      "g\xE5r \xE5t h\xF6ger klar_5": 920309494
+      "g\xE5r \xE5t h\xF6ger klar_6": -153286751
+      "g\xE5r \xE5t h\xF6ger klar_7": 645894119
+      "g\xE5r \xE5t h\xF6ger klar_8": -2063543730
+      "g\xE5r \xE5t h\xF6ger klar_9": -402232739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

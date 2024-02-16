@@ -54,6 +54,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f746995bfab63a44a9590c44a2c9e0dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   m_JumpForce: 800
   m_DashForce: 1600
   m_CrouchSpeed: 0.36
@@ -83,6 +84,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 925baa5be354bcb47bf2f3e528cec876, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 3437565786632427380}
   controller: {fileID: 2532058638719059458}
   runSpeed: 40
 --- !u!114 &2626478287687998860

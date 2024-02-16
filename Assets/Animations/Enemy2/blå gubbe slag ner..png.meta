@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 507b6738d0d7df14c84610ed5bd18b89
+guid: b790a366386aabe4ebebeff3362199fe
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,8 +70,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -110,169 +110,274 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC-jumping-Right_0
+      name: "bl\xE5 gubbe slag ner._0"
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9d32f8613626a4ea4bcc55351d3e70
-      internalID: -579175595
+      spriteID: 3132f617d7844c8418fa8122d5e4b6ba
+      internalID: 808048378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_1
+      name: "bl\xE5 gubbe slag ner._1"
       rect:
         serializedVersion: 2
         x: 240
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8da0eb1e4af614141b0195ed4784ff5d
-      internalID: 1549336973
+      spriteID: 6c7a3633bfdc8ac4fa06487238c9f713
+      internalID: 568629061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_2
+      name: "bl\xE5 gubbe slag ner._2"
       rect:
         serializedVersion: 2
         x: 480
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb027ee9ae63c74ca7c8e3a2d8b7b62
-      internalID: -280369142
+      spriteID: 68ac53f273f444d46aed0da2b506085b
+      internalID: 165087612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_3
+      name: "bl\xE5 gubbe slag ner._3"
       rect:
         serializedVersion: 2
         x: 720
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 547419524dc777e489fb4e0f13e62155
-      internalID: 1667199108
+      spriteID: 794a1d5835aedbf4fb5f0e2e2c80bd6b
+      internalID: 1026398521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_4
+      name: "bl\xE5 gubbe slag ner._4"
       rect:
         serializedVersion: 2
         x: 960
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 174992a8a84a09f4eadfbc4dc5cce384
-      internalID: 1942050813
+      spriteID: e519ad40b3b89bd4b96a2fb8cd29b83e
+      internalID: -1822950138
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_5
+      name: "bl\xE5 gubbe slag ner._5"
       rect:
         serializedVersion: 2
         x: 1200
-        y: 960
+        y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69ec0dd3ac550147be1ecf5dfc10496
-      internalID: 1437289193
+      spriteID: 8db7b247805fba945a99db618a2f8178
+      internalID: -542242119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_6
+      name: "bl\xE5 gubbe slag ner._6"
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1440
         y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5ccd2056c916449bc82a104a90ab2b
-      internalID: 1145713037
+      spriteID: 140bac0c0256b5f4bb060d0ef2359d00
+      internalID: -714425691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_7
+      name: "bl\xE5 gubbe slag ner._7"
       rect:
         serializedVersion: 2
-        x: 240
+        x: 1680
         y: 0
         width: 240
-        height: 960
+        height: 240
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d569a6386f5e1914fb4e0e7a7f7e7242
-      internalID: 175530107
+      spriteID: 9465546314efd4d42b68bb8b9acd65be
+      internalID: -400384009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bl\xE5 gubbe slag ner._8"
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 722561243c7351e4a9dc3adc2826fddc
+      internalID: 1340462424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bl\xE5 gubbe slag ner._9"
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49ee6c535098f4446b9852167386bbe3
+      internalID: -169580344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bl\xE5 gubbe slag ner._10"
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0c7a8fd3d1a1b44846aca34fd50228
+      internalID: 1277649772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bl\xE5 gubbe slag ner._11"
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87bbb14ba5cfc9438d2c88f7329be67
+      internalID: 1518387871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "bl\xE5 gubbe slag ner._12"
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 240
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5136dc20d282ce24e9e299fa8d33dc29
+      internalID: 141717554
       vertices: []
       indices: 
       edges: []
@@ -288,14 +393,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC-jumping-Right_0: -579175595
-      MC-jumping-Right_1: 1549336973
-      MC-jumping-Right_2: -280369142
-      MC-jumping-Right_3: 1667199108
-      MC-jumping-Right_4: 1942050813
-      MC-jumping-Right_5: 1437289193
-      MC-jumping-Right_6: 1145713037
-      MC-jumping-Right_7: 175530107
+      "bl\xE5 gubbe slag ner._0": 808048378
+      "bl\xE5 gubbe slag ner._1": 568629061
+      "bl\xE5 gubbe slag ner._10": 1277649772
+      "bl\xE5 gubbe slag ner._11": 1518387871
+      "bl\xE5 gubbe slag ner._12": 141717554
+      "bl\xE5 gubbe slag ner._2": 165087612
+      "bl\xE5 gubbe slag ner._3": 1026398521
+      "bl\xE5 gubbe slag ner._4": -1822950138
+      "bl\xE5 gubbe slag ner._5": -542242119
+      "bl\xE5 gubbe slag ner._6": -714425691
+      "bl\xE5 gubbe slag ner._7": -400384009
+      "bl\xE5 gubbe slag ner._8": 1340462424
+      "bl\xE5 gubbe slag ner._9": -169580344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 507b6738d0d7df14c84610ed5bd18b89
+guid: 3f33673216e43464380fdbe4c3aaf95b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -70,8 +70,8 @@ TextureImporter:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
+    resizeAlgorithm: 1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -110,169 +110,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC-jumping-Right_0
+      name: knight dash left sprite sheet_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 960
-        width: 240
+        y: 0
+        width: 480
         height: 960
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef9d32f8613626a4ea4bcc55351d3e70
-      internalID: -579175595
+      spriteID: 306bb481962d84d46a9afcc09cee91c0
+      internalID: -384836007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_1
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8da0eb1e4af614141b0195ed4784ff5d
-      internalID: 1549336973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_2
+      name: knight dash left sprite sheet_1
       rect:
         serializedVersion: 2
         x: 480
-        y: 960
-        width: 240
+        y: 0
+        width: 480
         height: 960
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1cb027ee9ae63c74ca7c8e3a2d8b7b62
-      internalID: -280369142
+      spriteID: 166380989bfb0484f992c731b0c4f9e1
+      internalID: -546709740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_3
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 547419524dc777e489fb4e0f13e62155
-      internalID: 1667199108
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_4
+      name: knight dash left sprite sheet_2
       rect:
         serializedVersion: 2
         x: 960
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 174992a8a84a09f4eadfbc4dc5cce384
-      internalID: 1942050813
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_5
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 960
-        width: 240
-        height: 960
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c69ec0dd3ac550147be1ecf5dfc10496
-      internalID: 1437289193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC-jumping-Right_6
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
-        width: 240
+        width: 480
         height: 960
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a5ccd2056c916449bc82a104a90ab2b
-      internalID: 1145713037
+      spriteID: 3fa9fc0edd5c0d24cbd12a6e5859f5fa
+      internalID: 1716582051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC-jumping-Right_7
+      name: knight dash left sprite sheet_3
       rect:
         serializedVersion: 2
-        x: 240
+        x: 1440
         y: 0
-        width: 240
+        width: 480
         height: 960
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d569a6386f5e1914fb4e0e7a7f7e7242
-      internalID: 175530107
+      spriteID: ab34c0b054c067f46a47683c1e5a33cd
+      internalID: 1426299496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: knight dash left sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 480
+        height: 960
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2e04eb599f7664c8f5a16f097a15d1
+      internalID: -1507484009
       vertices: []
       indices: 
       edges: []
@@ -288,14 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC-jumping-Right_0: -579175595
-      MC-jumping-Right_1: 1549336973
-      MC-jumping-Right_2: -280369142
-      MC-jumping-Right_3: 1667199108
-      MC-jumping-Right_4: 1942050813
-      MC-jumping-Right_5: 1437289193
-      MC-jumping-Right_6: 1145713037
-      MC-jumping-Right_7: 175530107
+      knight dash left sprite sheet_0: -384836007
+      knight dash left sprite sheet_1: -546709740
+      knight dash left sprite sheet_2: 1716582051
+      knight dash left sprite sheet_3: 1426299496
+      knight dash left sprite sheet_4: -1507484009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
