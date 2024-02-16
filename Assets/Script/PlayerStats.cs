@@ -54,7 +54,7 @@ public class PlayerStats : MonoBehaviour
         difficultySelector.Respawns -= 1;
         if (difficultySelector.Respawns < 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(7);
         }
         else
         {

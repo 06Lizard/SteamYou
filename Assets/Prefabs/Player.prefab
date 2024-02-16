@@ -66,6 +66,7 @@ MonoBehaviour:
   m_GroundCheck: {fileID: 3123281123765257280}
   m_CeilingCheck: {fileID: 3881741253399726089}
   m_CrouchDisableCollider: {fileID: 0}
+  playerMovement: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -105,6 +106,7 @@ MonoBehaviour:
   PointLeft: {fileID: 0}
   PointRight: {fileID: 0}
   PlayersTransform: {fileID: 2602014894545840635}
+  animator: {fileID: 0}
   firePoint: {fileID: 2295268626751362283}
   swordProjectilePrefab: {fileID: 4731031141179067991, guid: 9911545489865fb419310e3360f2bcb4, type: 3}
 --- !u!50 &2115948690493982335
@@ -166,11 +168,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.75}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.4005861, y: 4.8}
+    oldSize: {x: 0.50234485, y: 1.0666667}
     newSize: {x: 2.4005861, y: 4.8}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -211,7 +213,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1.25}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
 --- !u!212 &933082231119212050
