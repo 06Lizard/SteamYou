@@ -220,6 +220,97 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d145e95bff3f4d04ca3b7b34fb45725d, type: 3}
+--- !u!1 &276831493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276831496}
+  - component: {fileID: 276831495}
+  - component: {fileID: 276831494}
+  m_Layer: 0
+  m_Name: InvisebleWall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &276831494
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276831493}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 30}
+  m_EdgeRadius: 0
+--- !u!114 &276831495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276831493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c665cb8faa42742a5b4f562b57681c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Wall: {fileID: 1626568998448724197, guid: 3d39b6ceaa6248d4b966545e25f99a65, type: 3}
+--- !u!4 &276831496
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276831493}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.5, y: -0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &410837105
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -301,6 +392,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 84ba0a96259d933478944260fad4fcda, type: 3}
+--- !u!114 &933966005 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4176658098047341083, guid: 305fd1b4281f8a84cad902304798e7df, type: 3}
+  m_PrefabInstance: {fileID: 4849547303370224772}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75950e654729e604583ab4021c87afaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &990163232
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12756,6 +12858,8 @@ MonoBehaviour:
   transitionDuration: 1
   endPosition: {x: 20, y: 5}
   FollowPlayerTrans: {fileID: 990163233}
+  dragon: {fileID: 933966005}
+  playerTrans: {fileID: 1971107314}
 --- !u!4 &1825336370
 Transform:
   m_ObjectHideFlags: 0
@@ -12889,6 +12993,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4176658098047341083, guid: 305fd1b4281f8a84cad902304798e7df, type: 3}
+      propertyPath: maxX
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176658098047341083, guid: 305fd1b4281f8a84cad902304798e7df, type: 3}
+      propertyPath: minX
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176658098047341083, guid: 305fd1b4281f8a84cad902304798e7df, type: 3}
+      propertyPath: attackSpeed
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4176658098047341083, guid: 305fd1b4281f8a84cad902304798e7df, type: 3}
+      propertyPath: BossBulletPrefab
+      value: 
+      objectReference: {fileID: 2225970456088902462, guid: 7920e8191da72ff47801f10e111aec73, type: 3}
     - target: {fileID: 5502768286574989159, guid: 305fd1b4281f8a84cad902304798e7df, type: 3}
       propertyPath: m_Name
       value: Dragon
@@ -12911,3 +13031,4 @@ SceneRoots:
   - {fileID: 1606584167}
   - {fileID: 1825336370}
   - {fileID: 990163232}
+  - {fileID: 276831496}

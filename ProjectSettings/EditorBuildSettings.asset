@@ -24,9 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Coridor.unity
     guid: 350f9909e8a28ce4a9f4403b8b63b1b7
   - enabled: 1
-    path: Assets/Scenes/Boss.unity
-    guid: 09b430cd9fefd1a42b599887e9fcebcf
-  - enabled: 1
     path: Assets/Scenes/Princes.unity
     guid: d0ad9d465f8527c4094271d1899f3bcf
+  - enabled: 1
+    path: Assets/Scenes/Boss.unity
+    guid: 09b430cd9fefd1a42b599887e9fcebcf
   m_configObjects: {}

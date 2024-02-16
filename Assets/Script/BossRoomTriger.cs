@@ -11,6 +11,8 @@ public class BossRoomTrigger : MonoBehaviour
     [SerializeField] private float transitionDuration = 1.0f; // Duration of the transition
     [SerializeField] private Vector2 endPosition = new Vector2(20f, 5f);
     public Transform FollowPlayerTrans;
+    public Dragon dragon;
+    public Transform playerTrans;
 
     private Coroutine transitionCoroutine;
 
@@ -27,6 +29,7 @@ public class BossRoomTrigger : MonoBehaviour
                 virtualCamera.Follow = transform;
                 // Start the transition coroutine
                 transitionCoroutine = StartCoroutine(TransitionToFocus());
+                dragon.WakeUpDragon(playerTrans);
             }
         }
     }
