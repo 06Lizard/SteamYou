@@ -8,10 +8,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private CharacterController2D controller;
 
     public float runSpeed = 40f;
+    public float dashSpeed = 80f;
+
     float horizontalMove = 0f;
     bool jump = false;
     bool dash = false;
-
 
     // Update is called once per frame
     void Update()
@@ -22,7 +23,6 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            Debug.Log("Start jump");
             jump = true;
             animator.SetBool("IsJumping", true);
         }
@@ -32,7 +32,9 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsDashing", true);
         }
     }
-   
+
+
+
 
 
     public void Onlanding()
@@ -45,10 +47,10 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("IsDashing", false);
     }
 
-private void FixedUpdate()
+    private void FixedUpdate()
     {
-        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, false, jump, dash);
         jump = false;
-        
+        dash = false;
     }
 }
